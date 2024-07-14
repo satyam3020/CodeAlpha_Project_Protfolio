@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>Satyam pandey</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>"Hello, my name is Satyam pandey. I am Web Developer currently in third-year. I'm a engineering student at Shree LR Tiwari College of Engineering and am serving as an intern at CodSoft."</p>
+            <div class="social-media">
+                <a href="" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+            <a href="" download class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="./satyam suit1.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="satyam suit1.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Web Developer</h3>
+            <p>"Hi, I'm Satyam pandey. I'm currently in my third year pursuing an engineering degree at Shree LR Tiwari College of Engineering, and I'm working as an intern at CodSoft."</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2 class="headinng">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore rem beatae id aspernatur voluptates nemo error esse provident laborum impedit deserunt nam consequuntur quo quaerat hic nulla, excepturi ad commodi!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>UX/UI Designing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore rem beatae id aspernatur voluptates nemo error esse provident laborum impedit deserunt nam consequuntur quo quaerat hic nulla, excepturi ad commodi!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-brands fa-android"></i>
+                <h3>Full Stack Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore rem beatae id aspernatur voluptates nemo error esse provident laborum impedit deserunt nam consequuntur quo quaerat hic nulla, excepturi ad commodi!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="starbucks.JPG" alt="">
+                <div class="portfolio-layer">
+                    <h4>Landing Page</h4>
+                    <p>Made a responsive landing page of Starbucks cafe, In which we can see their required details, their latest coffee, they also have mobile app, online delivery.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="stopwatch.JPG" alt="">
+                <div class="portfolio-layer">
+                    <h4>StopWatch</h4>
+                    <p>A stopwatch or a timer which I have made contains six buttons which are set, reset, restart, lap, reset lap, pause</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="weather.JPG" alt="">
+                <div class="portfolio-layer">
+                    <h4>Weather App</h4>
+                    <p>A weather app shows us the proper temperature of the different cities with a symbole of the weather .</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <p>Copyright &copy; 2024 by @satyampandey | All Rights Reserved.</p>
+            </div>
+            <div class="footer-section">
+                <a href="#home" class="icon-top"><i class="fa-solid fa-angle-up"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
